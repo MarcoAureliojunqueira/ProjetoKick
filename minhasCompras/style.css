@@ -59,30 +59,33 @@ h2 {
 }
 
 footer {
-  background-color: black;
+  background-color: #333;
   color: white;
+  padding: 20px 0;
   text-align: center;
-  padding: 20px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
 .fundoInsta, .fundoGmail {
-  width: 15%;
-  background-color: white;
-  text-align: center;
-  margin: 10px; /* Centering the divs */
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .instagram, .imagemGmail {
-  width: 30%;
-  margin: 10px 0;
+  max-height: 40px;
+  width: auto;
 }
 
-p {
-  color: black;
-  text-align: center;
+.footer-section p {
+  margin: 0;
 }
-
-
